@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "personal website server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js localhost 8081"
+  },
+  "author": "Joe Robinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoeLeeRob/rbson/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
